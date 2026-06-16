@@ -1,0 +1,12 @@
+<project>
+    <groupId>br.edu.sistematizacao</groupId>
+    <artifactId>calculadora-imc</artifactId>
+    <version>1.0.0</version>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <!-- Adicione aqui bibliotecas externas do projeto -->
+    </dependencies>
+</project>
