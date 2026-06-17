@@ -182,7 +182,7 @@ public class Main {
 
     // Le campos de texto e impede entradas vazias.
     private static String lerTexto(Scanner scanner, String campo) {
-        System.out.println("Digite " + campo + ": ");
+        System.out.print("Digite " + campo + ": ");
 
         // trim remove espacos antes e depois do texto.
         String valor = scanner.nextLine().trim();
