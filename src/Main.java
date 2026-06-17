@@ -39,6 +39,7 @@ public class Main {
                         // Registra a pessoa no historico da sessao.
                         sistema.registrar(pessoaCadastrada);
 
+                        System.out.println();
                         System.out.println("Pessoa cadastrada com sucesso.");
                         break;
                     case 2:
@@ -124,6 +125,7 @@ public class Main {
 
     // Pausa o programa ate o usuario pressionar Enter.
     private static void aguardarEnter(Scanner scanner) {
+        System.out.println();
         System.out.print("Pressione Enter para voltar ao menu principal...");
         scanner.nextLine();
     }
